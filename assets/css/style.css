@@ -81,12 +81,7 @@ body {
   gap: 1em;
 }
 
-.active-users,
-.pending-users,
-.blocked-users {
-  /* position: relative; */
-  /* background: red; */
-}
+ 
 
 .content-table {
   border-collapse: collapse;
