@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive CSS</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="labels">
+        <label for="username1" class="button-87">Active Users</label>
+        <label for="username2" class="button-87">Pending Users</label>
+        <label for="username3" class="button-87">Blocked Users</label>
+      </div>
+
+      <div class="tables">
+        <div class="active-users">
+          <input type="radio" name="username" id="username1" />
+          <table>
+            <thead>
+              <tr>
+                <th>SN</th>
+                <th>NAME</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Stanley</td>
+                <td>active</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Emeka</td>
+                <td>active</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Nonso</td>
+                <td>active</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="pending-users">
+          <input type="radio" name="username" id="username2" />
+          <table class="content-table">
+            <thead>
+              <tr>
+                <th>SN</th>
+                <th>NAME</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>David</td>
+                <td>pending</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Somto</td>
+                <td>pending</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Ekene</td>
+                <td>pending</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="blocked-users">
+          <input type="radio" name="username" id="username3" />
+          <table>
+            <thead>
+              <tr>
+                <th>SN</th>
+                <th>NAME</th>
+                <th>STATUS</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Charles</td>
+                <td>blocked</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Grace</td>
+                <td>blocked</td>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Nnenna</td>
+                <td>blocked</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div>
+    <label for="username1" class="buttons">Active Users</label>
+    <label for="username2" class="buttons">Pending Users</label>
+    <label for="username3" class="buttons">Blocked Users</label>
+
+
+
+  </div>-->
+  </body>
+</html>
